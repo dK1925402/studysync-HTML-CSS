@@ -1,0 +1,551 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+.container1{
+
+width: 100%;
+height: 100%;
+padding: 0% 10%;
+
+}
+
+
+.navcontainer{
+padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+
+
+}
+
+  .atag { 
+    
+    text-decoration: none;
+    
+   
+    color: #565050;
+
+
+}
+
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#img1{
+height: 2.5rem;
+
+}
+
+
+.pages{
+    font-size: 1.4rem;
+  position: relative;
+  display: flex ;
+  align-items: end;
+  gap: 2rem;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight:bold;
+
+}
+
+
+#contact{
+    background-color: #6366F1;
+    font-size: 1.2rem;
+    padding: 1.1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+
+#text{
+
+font-size: 1.3rem;
+color: #6366F1;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+/* Seamless Learning for Brighter Futures */
+
+.grides{
+
+    /* width: 100%; */
+ /* background-color: aliceblue; */
+ display: grid;
+
+margin: 4rem;
+
+/* justify-content: space-around; */
+
+ grid-template-rows: repeat(1,1fr);
+ grid-template-columns: repeat(2,1fr);
+column-gap: 20rem;
+
+padding: 0rem 5rem;
+font-size: 1.5rem;
+
+
+
+/* justify-item; */
+/* align-content: space-evenly; */
+
+
+}
+
+
+#box1head{
+    font-size: 4.8rem;
+    margin: 2rem 0rem;
+}
+
+
+.b1class{
+
+    width: 16rem;
+    margin-top: 1.5rem;
+
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+
+.b1{
+     
+    /* margin: 2rem 0rem; */
+    height: 3.3rem;
+    width: 6.5rem;
+    border-radius: 1.01rem;
+    color: white;
+    background-color: #6366F1;
+    font-size: 1rem;
+    font-weight: bold;
+    border-color: white;
+
+}
+
+
+.box1{
+
+    width : 50rem;
+}
+
+
+#banner{
+    height:400px ;
+    width:400px ;
+    border-radius: 2rem;
+    position: relative;
+   right: 15rem;
+}
+
+
+
+
+
+
+/* Trusted by the best */
+
+
+
+
+.box3{
+
+
+display:grid;
+
+grid-template-rows: repeat(2,1fr);
+grid-template-columns: repeat(1,1fr);
+
+font-size: 2.1rem;
+
+justify-items: center;
+  align-items: center;
+  row-gap: 1rem;
+
+}
+
+
+.imgx{
+
+    height: 2.5rem;
+
+}
+
+.l1{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 0.5rem;
+   
+   
+}
+
+
+.lower{
+    background-color: #f0f0f0;
+width: 80%;
+height: 7rem;
+display: flex ;
+justify-content: space-around;
+ align-items: center;
+   
+}
+
+
+
+/* box 4  */
+
+
+footer{
+margin: 0%;
+padding: 0%;
+}
+
+.box4container{
+ 
+box-sizing: border-box;
+padding: 1.2rem;
+margin-top: 2rem;
+ 
+    background-color: #f0f0f0;
+
+}
+
+
+
+.box4header{
+   
+    display: grid;
+    justify-items: center;
+    margin: 3rem;
+    margin-top: 6rem;
+    font-size: 1.4rem;
+   
+}
+
+#para{
+    width: 70%;
+   text-align: center;
+   
+}
+
+
+.box4{
+
+ display: flex;
+ justify-content: center;
+ 
+ 
+}
+
+.box4in{
+    height: 70rem; 
+    width: 75rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,2fr);
+
+}
+
+
+
+.square{
+
+    background-color: #4a90e2;
+    height: 20rem; 
+   width: 35rem;
+   
+   border-radius: 1.5rem;
+
+   display: grid;
+   
+
+   justify-items: center;
+  
+padding: 2rem;
+
+/* position:relative;
+
+left: 5rem; */
+
+}
+
+.sqimg{
+
+background-size: cover;
+
+width: 5rem;
+height: 5rem;
+background-color: white;
+border-radius: 5rem;
+border : 1rem white solid;
+margin: 0rem 12rem;
+
+}
+
+.sqareheading{
+
+    font-size: 1.8rem;
+    color: white;
+    
+}
+
+.sqaureptag{
+
+font-size: 1.5rem;
+color: white;
+
+
+}
+
+
+#imgtag1{
+    background-color: #4a90e2;
+}
+
+#imgtag2{
+    background-color: #FF6289;
+}
+
+#imgtag3{
+    background-color: #fcbf58;
+}
+#imgtag4{
+    background-color: #44bfc3;
+}
+#imgtag5{
+    background-color: #77b05d;
+}
+#imgtag6{
+    background-color: #7d78b1;
+}
+
+
+
+
+.box5{
+
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background-color: white;
+  
+}
+
+
+.innerbox5{
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.innerbox51{
+
+    border: 1px rgb(143, 138, 138) solid;
+    border-radius: 1rem;
+
+    width: 25rem;
+    height: 16rem;
+
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.avatar{
+    height: 6rem;
+}
+
+
+.innerheader{
+    display: grid;
+    justify-items: center;
+    
+    font-size: 1.8rem;
+    padding: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box5paratag{
+color: rgb(69, 67, 67);
+
+}
+
+.box5h3{
+
+    color: #1c63b4;
+}
+
+
+#table1{
+display: grid;
+justify-items: center;
+
+  
+
+}
+
+
+#tableimg{
+width: 45rem;
+height: 18.5rem;
+
+}
+
+
+#td1{
+    /* border: 2px solid black; */
+    border-right: 0px ;
+}
+
+#td2{
+    /* border: 2px solid black; */
+    border-left: 0px ;
+    width :35rem;
+    padding: 1.1rem;
+    background-color: #ccc6c643;
+
+    
+}
+
+
+#box6h1{
+    color: #585adf;
+    font-size: 3rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+#box6p1{
+
+    position: relative;
+    bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+#box6p2{
+    position: relative;
+    top: 2rem; 
+
+    font-size: 1.3rem;
+}
+
+#box6input{
+width: 19rem;
+height: 2.5rem;
+font-size: 1.2rem;
+padding: 1rem;
+border-radius: 0.5rem;
+}
+
+#box6b1{
+  background-color: #585adf;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.box7{
+
+    background-color: black;
+
+}
+
+footer{
+
+    padding: 5rem;
+display: flex;
+justify-content: space-around;
+font-size: 1.2rem;
+color: white;
+margin-top: 5rem;
+
+}
+
+.fdiv1{
+
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.fdiv2{
+    display: flex;
+    justify-content: space-around;
+
+    width: 50rem;
+    /* margin: 5rem; */
+   
+}
+
+.box7h3{
+    margin-bottom: 2rem;
+}
+
+.box7p{
+    margin-bottom: 1.1rem;
+}
+
+#box7img{
+    height:2.5rem
+}
+
+#box7lable{
+    font-size: 2rem;
+    position: relative;
+    bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+.fdiv1inner1{
+
+font-size: 1.5rem;
+
+position: relative;
+bottom: 1.5rem;
+}
+
+.fdiv1inner2{
+
+
+    position: relative;
+    bottom: 2rem;
+    width: 15rem;
+    height : 1.8rem;
+
+display: flex;
+justify-content: space-around;
+
+}
+
+
+
+.box8{
+
+    display: grid;
+   
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+
+}
